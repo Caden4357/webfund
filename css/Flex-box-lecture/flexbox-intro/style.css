@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 2px solid red;
+    max-width: 1270px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 800px;
+}
+
+.red, .blue, .green{
+    width: 200px;
+    height: 200px;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+/* .purple{
+    background-color: purple;
+} */

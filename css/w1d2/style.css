@@ -1,0 +1,60 @@
+
+.container{
+    width: 1270px;
+    border: 2px dashed blue;
+    margin: 0 auto;
+}
+
+
+/* Target element by tag name */
+h1{
+    background-color: #17A2B8;
+    color: #FFFF00;
+    text-align: center;
+}
+p{
+    font-family: 'Roboto Mono', monospace;
+}
+/* target element by class more specific then tag name */
+.gothic{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Target elements by id the most specific */
+#purple{
+    background-color: purple;
+}
+h2#purple{
+    background-color: aqua;
+}
+.red{
+    background-color: red;
+    color: yellow;
+}
+
+.green, .orange{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+a{
+    width: 400px;
+}
+.yellow{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 4px solid black;
+    border-radius: 50px;
+    margin: 20px;
+    display: inline-block;
+}
