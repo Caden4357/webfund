@@ -19,3 +19,6 @@ function increaseAge(el) {
     console.log(typeof(el.innerText));
     el.innerText++;
 }
+function hoverChangeImg() {  
+    // Code goes here
+}
