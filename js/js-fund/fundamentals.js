@@ -38,7 +38,7 @@ console.log(result);
 // console.log(result2);
 
 //* = vs == vs ===
-console.log(10 === "5");
+console.log(10 === "10");
 
 
 
