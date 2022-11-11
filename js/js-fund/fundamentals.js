@@ -38,8 +38,7 @@ console.log(result);
 // console.log(result2);
 
 //* = vs == vs ===
-console.log(5 === "5");
-
+console.log(10 === "5");
 
 
 
